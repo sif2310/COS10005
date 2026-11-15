@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurants | MyRestaurant</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="images/logo.png" alt="MyRestaurant"></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="restaurants.html" class="active" aria-current="page">Restaurants</a>
+      <a href="recommend.html">Recommend</a>
+      <a href="register.html">Register</a>
+      <a href="reservation.html">Reserve</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-title">
+      <h1>Our Restaurants</h1>
+    </section>
+
+    <section class="restaurant-grid">
+      <!-- Each needs:name, cuisine, signature dishes + prices, deposit amount, 50-100 word description, image with alt text, average price per person.-->
+
+      <!-- Restaurant 1: Asiba (Mamak) -->
+      <article class="restaurant-card">
+        <img src="images/asiba.jpg" alt="Front of Restaurant Asiba in Kota Kemuning">
+        <div class="card-body">
+          <h2>Restaurant Asiba</h2>
+          <p class="cuisine">Mamak cuisine</p>
+          <p>Restaurant Asiba is a lively mamak spot serving Malaysian comfort food around the clock. Locals love its
+            crispy, fluffy roti canai, rich curries and frothy teh tarik. The portions are generous, the prices are
+            friendly, and the relaxed atmosphere makes it perfect for late-night suppers or casual catch-ups with
+            friends and family.</p>
+          <p class="address">Address: Jalan Anggerik Vanilla U 31/U, Kota Kemuning, 40460 Shah Alam, Selangor</p>
+          <h3>Signature dishes</h3>
+          <ul>
+            <li>Roti Canai - RM 2.50</li>
+            <li>Nasi Lemak Ayam - RM 9.00</li>
+            <li>Mee Goreng Mamak - RM 8.50</li>
+            <li>Teh Tarik - RM 2.50</li>
+          </ul>
+          <p>Average price: RM10 - RM20 per person</p>
+          <p>Halal: Yes</p>
+          <p>Vegetarian options: Yes</p>
+          <p>Best for: Family</p>
+          <p>Reservation deposit: RM10</p>
+          <a class="btn" href="reservation.html?restaurant=asiba">Reserve a table</a>
+        </div>
+      </article>
+      <!-- Restaurant 2: Gula Cakery (Western) -->
+      <article class="restaurant-card">
+        <img src="images/gula.jpg" alt="Front of Restaurant Gula Cakery in Kota Kemuning">
+        <div class="card-body">
+          <h2>Restaurant Gula Cakery</h2>
+          <p class="cuisine">Western cuisine</p>
+          <p>Gula Cakery is a cosy western cafe and dessert shop that serves hearty comfort food alongside freshly baked
+            cakes. Customers love its grilled chicken chop with black pepper sauce, crispy fish and chips, and creamy
+            chocolate milkshake. It is a relaxed spot for birthday treats, date nights and catch-ups with friends.</p>
+          <p class="address">Address: 11, Jalan Anggerik Aranda BG 31/BG, Kota Kemuning, 40460 Shah Alam, Selangor</p>
+          <h3> Signature dishes</h3>
+          <ul>
+            <li>Spaghetti Aglio Olio Crispy Chicken - RM 26.00</li>
+            <li>Grilled Chicken Chop - RM 29.00</li>
+            <li>Fish and Chips - RM 25.00</li>
+            <li>Chocolate Milkshake - RM 20.00</li>
+            <li>Red Velvet Slice Cake - RM 14.00</li>
+          </ul>
+          <p>Average price: RM45 - RM55 per person</p>
+          <p>Halal: Yes</p>
+          <p>Vegetarian options: No</p>
+          <p>Best for: Date, Business</p>
+          <p>Reservation deposit: RM10</p>
+          <a class="btn" href="reservation.html?restaurant=gula">Reserve a table</a>
+        </div>
+      </article>
+      <!-- Restaurant 3: Pakistan (Arab) -->
+      <article class="restaurant-card">
+        <img src="images/pakistan.jpg" alt="Front of Restaurant Pakistan in Kota Kemuning">
+        <div class="card-body">
+          <h2>Restaurant Pakistan</h2>
+          <p class="cuisine">Arab cuisine</p>
+          <p>Restaurant Pakistan serves warm, home-style Arab comfort food made for sharing. Guests enjoy its tender
+            fahsa chicken, creamy foul with hummus and rich shakshouka eggs, then finish with a sweet, golden kunafa. It
+            is a welcoming place for family meals, group dinners and trying Middle Eastern flavours for the first time.
+          </p>
+          <p class="address">Address: 44-G, Jalan Anggerik Vanilla 31/AD, Kota Kemuning, 40460 Shah Alam, Selangor</p>
+          <h3> Signature dishes</h3>
+          <ul>
+            <li>Fahsa Chicken - RM 25.00</li>
+            <li>Foul with Hummus - RM 24.00</li>
+            <li>Shakshouka Eggs - RM 18.00</li>
+            <li>Kunafa - RM 20.00</li>
+          </ul>
+          <p>Average price: RM40 - RM50 per person</p>
+          <p>Halal: Yes</p>
+          <p>Vegetarian options: Yes</p>
+          <p>Best for: Family, Date, Business</p>
+          <p>Reservation deposit: RM10</p>
+          <a class="btn" href="reservation.html?restaurant=pakistan">Reserve a table</a>
+        </div>
+      </article>
+      <!-- Restaurant 4: Hakshan (Chinese) -->
+      <article class="restaurant-card">
+        <img src="images/hakshan.jpg" alt="Front of Restaurant Hakshan in Kota Kemuning">
+        <div class="card-body">
+          <h2>Restaurant Hakshan</h2>
+          <p class="cuisine">Chinese cuisine</p>
+          <p>Restaurant Hakshan Kota Kemuning serves classic Chinese dishes made for sharing around the table. Diners
+            enjoy its tender steamed chicken with scallion, crispy deep fried grouper and fluffy fried eggs with shrimp,
+            followed by a refreshing cup of lei cha milk tea. It suits family dinners and group gatherings.</p>
+          <p class="address">Address: 21, Jalan Anggerik Vanilla BF 31/BF, Kota Kemuning, 40460 Shah Alam, Selangor</p>
+          <h3> Signature dishes</h3>
+          <ul>
+            <li>Steamed Chicken with Scallion - RM 35.00</li>
+            <li>Deep Fried Grouper Fish - RM 50.00</li>
+            <li>Fried Eggs with Shrimp - RM 25.00</li>
+            <li>Light Lei Cha Milk Tea - RM 7.00</li>
+          </ul>
+          <p>Average price: RM30 - RM60 per person</p>
+          <p>Halal: No</p>
+          <p>Vegetarian options: No</p>
+          <p>Best for: Date, Business</p>
+          <p>Reservation deposit: RM20</p>
+          <a class="btn" href="reservation.html?restaurant=hakshan">Reserve a table</a>
+        </div>
+      </article>
+      <!-- Restaurant 5:  Lella's (Indian) -->
+      <article class="restaurant-card">
+        <img src="images/leela.jpg" alt="Front of Restaurant Madam Leela's in Kota Kemuning">
+        <div class="card-body">
+          <h2>Restaurant Madam Leela's</h2>
+          <p class="cuisine">Indian cuisine</p>
+          <p>Madam Leela's serves warm, flavourful Indian meals in a friendly, casual setting. Guests love its fragrant
+            chicken dum biryani set and the generous vegetarian banana leaf set, paired with a refreshing soda herb
+            fizzy. Finish with a bowl of sweet semiya payasam. It is a great pick for families, friends and vegetarians.
+          </p>
+          <p class="address">Address: 5, Jalan Anggerik Vanilla AB 31/AB, Kota Kemuning, 40460 Shah Alam, Selangor</p>
+          <h3> Signature dishes</h3>
+          <ul>
+            <li>Chicken Dum Biryani Set - RM 25.00</li>
+            <li>Vegetarian Banana Leaf Set - RM 15.00</li>
+            <li>Soda Herb Fizzy - RM 6.50</li>
+            <li>Semiya Payasam - RM 2.50</li>
+          </ul>
+          <p>Average price: RM20 - RM35 per person</p>
+          <p>Halal: Yes</p>
+          <p>Vegetarian options: Yes</p>
+          <p>Best for: Family, Date, Business</p>
+          <p>Reservation deposit: RM10</p>
+          <a class="btn" href="reservation.html?restaurant=leela">Reserve a table</a>
+        </div>
+      </article>
+      <!-- Restaurant 6: Jisoo (Korean) -->
+      <article class="restaurant-card">
+        <img src="images/jisoo.jpg" alt="Front of Restaurant Jisoo Korean Fried Chicken in Kota Kemuning">
+        <div class="card-body">
+          <h2>Restaurant Jisoo Korean Fried Chicken</h2>
+          <p class="cuisine">Korean cuisine</p>
+          <p>Jisoo Korean Fried Chicken brings the crunch of Korean street food to your table. Diners come for the
+            crispy half chicken and juicy boneless chicken thigh, along with chewy tteokbokki with egg and a sizzling
+            bibimbap. It is a fun, casual choice for friends, students and anyone craving something spicy and
+            satisfying.</p>
+          <p class="address">Address: 3A (1st Floor), Jalan Anggerik Vanilla X 31/X, Kota Kemuning, 40460 Shah Alam,
+            Selangor</p>
+          <h3> Signature dishes</h3>
+          <ul>
+            <li>Half Chicken - RM 29.00</li>
+            <li>Boneless Chicken Thigh - RM 17.80</li>
+            <li>Original Tteokbokki with Egg - RM 9.50</li>
+            <li>Sizzling Bibimbap - RM 22.80</li>
+          </ul>
+          <p>Average price: RM25 - RM40 per person</p>
+          <p>Halal: No</p>
+          <p>Vegetarian options: No</p>
+          <p>Best for: Date</p>
+          <p>Reservation deposit: RM15</p>
+          <a class="btn" href="reservation.html?restaurant=jisoo">Reserve a table</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 MyRestaurant. COS10005 Assignment 2. Muhammad Aasif</p>
+    <!-- Contact details  -->
+    <p>For more info, please contact us:</p>
+    <p>Phone: 012-345 6789 | Email: info@myrestaurant.gmail.com.my | Instagram: @myrestaurant.kk</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
